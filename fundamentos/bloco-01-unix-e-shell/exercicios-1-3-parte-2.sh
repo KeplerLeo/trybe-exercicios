@@ -18,3 +18,25 @@ grep -i brazil countries.txt
 
 # exercício 7
 grep -v fox phrases.txt
+
+# exercício 8
+wc -w phrases.txt
+
+# exercício 9
+wc -l phrases.txt
+
+# exercício 10
+touch empty.tbt
+touch empty.pdf
+
+# exercício 11
+ls -l
+
+# exercício 12
+ls -l *txt
+
+# exercício 13
+ls -l *t?t
+
+# exercício 14
+man ls
