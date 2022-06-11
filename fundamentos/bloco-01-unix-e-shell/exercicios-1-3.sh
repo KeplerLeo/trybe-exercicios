@@ -10,3 +10,9 @@ cp trybe.txt trybe_backup.txt
 
 # exercício 4
 mv trybe.txt outro_nome.txt
+
+# exercício 5
+mkdir backup
+
+# exercício 6
+mv trybe_backup.txt backup
