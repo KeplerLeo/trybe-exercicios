@@ -22,3 +22,13 @@ mkdir backup2
 
 # exercício 8
 mv backup/trybe_backup.txt backup2
+
+# exercício 9
+rmdir backup
+
+# exercício 10
+mv backup2 backup
+
+# exercício 11
+pwd
+ls -l .
