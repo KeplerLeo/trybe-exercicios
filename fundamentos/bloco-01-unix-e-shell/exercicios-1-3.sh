@@ -1,4 +1,6 @@
- # exercício 1
+# Parte 1
+
+# exercício 1
 mkdir unix_tests
 cd unix_tests
 
@@ -41,3 +43,9 @@ clear
 
 # exercício 14
 head -n 5 skills.txt
+
+# exercício 15
+tail -n 4 skills.txt
+
+# exercício 16
+rm *.txt
