@@ -7,3 +7,6 @@ touch trybe.txt
 
 # exercício 3
 cp trybe.txt trybe_backup.txt
+
+# exercício 4
+mv trybe.txt outro_nome.txt
