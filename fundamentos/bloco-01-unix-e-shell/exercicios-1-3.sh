@@ -16,3 +16,9 @@ mkdir backup
 
 # exercício 6
 mv trybe_backup.txt backup
+
+# exercício 7
+mkdir backup2
+
+# exercício 8
+mv backup/trybe_backup.txt backup2
