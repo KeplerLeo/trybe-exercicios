@@ -32,3 +32,12 @@ mv backup2 backup
 # exercício 11
 pwd
 ls -l .
+
+# exercício 12
+rm -rd backup
+
+# exercício 13
+clear
+
+# exercício 14
+head -n 5 skills.txt
