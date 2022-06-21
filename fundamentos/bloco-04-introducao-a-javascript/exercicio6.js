@@ -11,7 +11,7 @@ switch (peca.toLowerCase()) {
     console.log('Bispo -> Se move para as diagonais');
     break;
   case 'cavalo':
-    console.log("Cavalo -> Se move em 'L' e pode saltar sobre outras peças");
+    console.log('Cavalo -> Se move em "L" e pode saltar sobre outras peças');
     break;
   case 'torre':
     console.log('Torre -> Se move na horizontal ou vertical');
