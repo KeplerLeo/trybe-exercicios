@@ -1,8 +1,0 @@
-Internet
-Unix
-Bash
-JS
-CSS
-HTML
-Node
-React
