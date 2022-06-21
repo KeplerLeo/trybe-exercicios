@@ -11,5 +11,5 @@ if (
 ) {
   console.log(true);
 } else {
-  console.log(false + " Angulo incorreto");
+  console.log(`${false} Angulo incorreto`);
 }
