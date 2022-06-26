@@ -31,7 +31,32 @@ for (let i = 0; i < n; i++) {
 }
 
 // Bônus 4
+for (let i = 1; i <= (n + 1) / 2; i += 1) {
+  let piramide = '';
+  for (let j = 1; j <= n; j += 1) {
+    if (j > (n + 1) / 2 - i && j < (n + 1) / 2 + i) {
+      piramide += '*';
+    } else {
+      piramide += ' ';
+    }
+  }
+  console.log(piramide);
+}
+
 // Bônus 5
+for (let i = 1; i <= (n + 1) / 2; i += 1) {
+  let piramide = '';
+  for (let j = 1; j <= n; j += 1) {
+    if (j === (n + 1) / 2 - (i - 1) || j === (n + 1) / 2 + (i - 1) || i === (n + 1) / 2) {
+      piramide += '*';
+    } else {
+      piramide += ' ';
+    }
+  }
+  console.log(piramide);
+}
+
+
 // Bônus 6
 let num = 60;
 let divisor = 0;
