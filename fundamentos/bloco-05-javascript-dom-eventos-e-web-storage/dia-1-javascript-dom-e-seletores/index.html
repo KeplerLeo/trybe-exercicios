@@ -45,6 +45,58 @@
     </section>
   </main>
   <script>
+    // Exercício 1
+    function changeParagraph() {
+      let paragraph =
+        document.getElementsByTagName('p')[1];
+      paragraph.innerHTML =
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, sint!';
+    }
+    changeParagraph();
+
+    // Exercício 2
+    function changeYellow() {
+      let mainContent =
+        document.getElementsByClassName(
+          'main-content'
+        )[0];
+      mainContent.style.background = 'rgb(76,164,109)';
+    }
+    changeYellow();
+
+    // Exercício 3
+    function changeRed() {
+      let centerContent = document.getElementsByClassName(
+        'center-content'
+      )[0];
+      centerContent.style.background = 'white';
+    }
+    changeRed();
+
+    // Exercício 4
+    function changeTitle() {
+      let title = document.getElementsByTagName('h1')[0];
+      title.innerHTML = 'Exercício 5.1 - Javascript';
+    }
+    changeTitle();
+
+    // Exercício 5
+    function changeParagraphUpper() {
+      let paragraph =
+        document.getElementsByTagName('p')[0];
+      paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+    }
+    changeParagraphUpper();
+
+    // Exercício 6
+    function showParagraphOnConsole() {
+      let paragraph = document.getElementsByTagName('p');
+      for (let i = 0; i < paragraph.length; i += 1) {
+        console.log(paragraph[i].innerHTML)
+      }
+    }
+    showParagraphOnConsole();
+    
     /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
@@ -57,36 +109,7 @@
       5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
       6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
       */
-    function changeParagraph() {
-      let paragraph =
-        document.getElementsByTagName('p')[1];
-      paragraph.innerHTML =
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, sint!';
-    }
-    changeParagraph();
 
-    function changeYellow() {
-      let mainContent =
-        document.getElementsByClassName(
-          'main-content'
-        )[0];
-      mainContent.style.background = 'rgb(76,164,109)';
-    }
-    changeYellow();
-
-    function changeRed() {
-      let centerContent = document.getElementsByClassName(
-        'center-content'
-      )[0];
-      centerContent.style.background = 'white';
-    }
-    changeRed();
-
-    function changeTitle() {
-      let title = document.getElementsByTagName('h1')[0];
-      title.innerHTML = 'Exercício 5.1 - Javascript';
-    }
-    changeTitle();
   </script>
 </body>
 
