@@ -59,6 +59,8 @@
 
 <body>
   <script>
+    /****** Parte 1 ******/
+
     // Exercício 1
     let title = document.createElement('h1');
     title.innerHTML = 'Exercício 5.2 - Javascript DOM'
@@ -111,6 +113,27 @@
       subTitle.innerHTML = `Filha ${i + 1} do Main`;
       main.appendChild(subTitle);
     }
+
+    /****** Parte 2 ******/
+
+    // Exercício 1
+    let titleClass = document.getElementsByTagName('h1')[0];
+    titleClass.className = 'title';
+
+    // Exercício 2
+    let descriptionClass = document.getElementsByTagName('h3');
+    for (let i = 0; i < 3; i += 1) {
+      descriptionClass[i].className = 'description';
+    }
+
+    // Exercício 3
+    let sectionLeftRemove = document.getElementsByClassName('left-content')[0];
+    main.removeChild(sectionLeftRemove);
+    /*
+      Ou de forma mais simples apenas => main.removeChild(sectionLeft);
+    */
+
+    // Exercício 4
   </script>
 
 </body>
